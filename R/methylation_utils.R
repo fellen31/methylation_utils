@@ -51,7 +51,17 @@ read_modkit_bed_to_arrow <- function(file_path) {
                                 "n_nocall"),
                  as_data_frame = TRUE)
 }
-
+#' Fahrenheit conversion2
+#'
+#' Convert degrees Fahrenheit temperatures to degrees Celsius
+#' @param F_temp The temperature in degrees Fahrenheit
+#' @return The temperature in degrees Celsius
+#' @examples 
+#' temp1 <- F_to_C(50);
+#' temp2 <- F_to_C( c(50, 63, 23) );
+#' @import dplyr
+#' @import arrow
+#' @export
 convert_modkit_bed_to_parquet_hive <- function(file_path, output_dir) {
   # Use filname as identifier
   filename <- gsub(".*/", "", file_path)
