@@ -1,5 +1,5 @@
-Package: methylation_utils
+Package: MethylationUtils
 Type: Package
-Title: Temperature Conversion Package for Demonstration
+Title: Long-read methylation utils
 Version: 0.0.1.0
 RoxygenNote: 7.2.3
